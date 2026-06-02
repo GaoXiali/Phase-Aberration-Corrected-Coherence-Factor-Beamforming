@@ -1,0 +1,6 @@
+*.asv
+*.fig
+*.cu
+dual_speed_results/
+**/data/reconstruction/
+**/figures/generated/

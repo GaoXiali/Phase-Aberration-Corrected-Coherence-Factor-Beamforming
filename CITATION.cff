@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite the associated manuscript."
+title: "PAC-CF Reproduction Package"
+authors:
+  - family-names: Gao
+    given-names: Xiali
+  - family-names: Huang
+    given-names: Hao
+date-released: 2026-06-02

@@ -1,0 +1,9 @@
+Research Reproduction License
+
+Copyright (c) 2026 Xiali Gao and Hao Huang.
+
+Permission is granted to use this package for non-commercial academic review and reproduction of the associated manuscript results.
+
+You may not claim this code, method, figures, or derived results as your own work. Redistribution, commercial use, and derivative competing implementations require written permission from the authors.
+
+The included `waterSoundSpeed.m` function is derived from the k-Wave toolbox and remains under the GNU Lesser General Public License terms stated in that file.
