@@ -1,0 +1,5 @@
+metric_name,definition
+peak_retention_vs_DAS_raw,"Peak amplitude at a fixed vessel position divided by the DAS peak amplitude at the same position, computed from saved raw XY projection values."
+background_fluctuation_display_norm,"Standard deviation of the background samples along the selected line after display-style per-method normalization."
+CNR_display_norm,"Mean signal value around reference vessel peaks minus background mean, divided by background standard deviation, computed on display-normalized profiles."
+CNR_raw,"Same CNR formula computed from saved raw XY projection values."

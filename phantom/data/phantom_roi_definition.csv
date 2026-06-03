@@ -1,0 +1,5 @@
+region_or_profile,x_mm,y_mm,half_width_mm,corner_width_mm,description,reference_line_file
+wire_signal_band,-0.233333333333333,-1.66666666666667,0.25,NaN,union of vertical and horizontal wire bands with the crossing region excluded,phantom_paccf_reference_lines.csv
+background_roi,NaN,NaN,NaN,2.5,four image-corner regions away from the wire signal mask,phantom_paccf_reference_lines.csv
+vertical_wire_width_profile,NaN,-0.8,NaN,NaN,PAC-CF reference horizontal line for measuring the vertical wire width,phantom_paccf_reference_lines.csv
+horizontal_wire_width_profile,2.23333333333333,NaN,NaN,NaN,PAC-CF reference vertical line for measuring the horizontal wire width,phantom_paccf_reference_lines.csv
