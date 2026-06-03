@@ -1,6 +1,6 @@
 % File: SphericalRecon_phantom.m
 % Purpose: Phantom reconstruction demo comparing DAS, CF, and PAC-CF modes.
-% Authors: Xiali Gao; Hao Huang
+% Authors: Xiali Gao
 % Tested with: MATLAB R2024a, CUDA 12.9, NVIDIA RTX 4090.
 
 clc;
@@ -22,7 +22,7 @@ detector(:,1) = detector(:,1)+0.555;
 detector(:,2) = detector(:,2)+0.39;
 [~, ~, Nframe] = size(data);
 
-reconstruct_mode = [1 2 3]; % 1: DAS; 2: CF; 3: PAC-CF.
+reconstruct_mode = 1; % 1: DAS; 2: CF; 3: PAC-CF.
 frames_to_reconstruct = 1; % Frame index or vector of frame indices to reconstruct.
 
 T = 23.3;

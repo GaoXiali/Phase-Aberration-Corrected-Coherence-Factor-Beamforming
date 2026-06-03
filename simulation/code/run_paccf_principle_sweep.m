@@ -1,6 +1,6 @@
 % File: run_paccf_principle_sweep.m
 % Purpose: Synthetic simulation showing how PAC-CF behaves as dual-speed contrast increases.
-% Authors: Xiali Gao; Hao Huang
+% Authors: Xiali Gao
 % Tested with: MATLAB R2024a, CUDA 12.9, NVIDIA RTX 4090.
 
 function result = run_paccf_principle_sweep()

@@ -1,6 +1,6 @@
 % File: ds_dual_speed_tof.m
 % Purpose: Dual-speed time-of-flight calculator for an ellipsoidal inner region.
-% Authors: Xiali Gao; Hao Huang
+% Authors: Xiali Gao
 % Tested with: MATLAB R2024a, CUDA 12.9, NVIDIA RTX 4090.
 
 function tof = ds_dual_speed_tof(points_m, sensor_xyz_m, ellipse, c_out_mps, c_in_mps)

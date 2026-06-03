@@ -1,6 +1,6 @@
 % File: denoise_sinogram.m
 % Purpose: Band-pass filtering helper for photoacoustic sinogram data.
-% Authors: Xiali Gao; Hao Huang
+% Authors: Xiali Gao
 % Tested with: MATLAB R2024a, CUDA 12.9, NVIDIA RTX 4090.
 
 function clean_sinogram = denoise_sinogram(raw_sinogram)

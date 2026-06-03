@@ -1,6 +1,6 @@
 % File: ds_gcnr.m
 % Purpose: Generalized contrast-to-noise ratio helper.
-% Authors: Xiali Gao; Hao Huang
+% Authors: Xiali Gao
 % Tested with: MATLAB R2024a, CUDA 12.9, NVIDIA RTX 4090.
 
 function value = ds_gcnr(target_values, background_values, num_bins)

@@ -1,6 +1,6 @@
 % File: ds_fwhm_metrics.m
 % Purpose: FWHM metric helper for normalized reconstructed volumes.
-% Authors: Xiali Gao; Hao Huang
+% Authors: Xiali Gao
 % Tested with: MATLAB R2024a, CUDA 12.9, NVIDIA RTX 4090.
 
 function fwhm = ds_fwhm_metrics(img, grid)

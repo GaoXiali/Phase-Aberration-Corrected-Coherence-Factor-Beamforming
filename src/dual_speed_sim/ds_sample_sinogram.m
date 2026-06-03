@@ -1,6 +1,6 @@
 % File: ds_sample_sinogram.m
 % Purpose: Linear interpolation helper for sampling sinogram values at target arrival times.
-% Authors: Xiali Gao; Hao Huang
+% Authors: Xiali Gao
 % Tested with: MATLAB R2024a, CUDA 12.9, NVIDIA RTX 4090.
 
 function values = ds_sample_sinogram(sensor_data, t_array, tof)

@@ -1,6 +1,6 @@
 % File: ds_fibonacci_hemisphere.m
 % Purpose: Fibonacci sampling helper for a hemispherical detector layout.
-% Authors: Xiali Gao; Hao Huang
+% Authors: Xiali Gao
 % Tested with: MATLAB R2024a, CUDA 12.9, NVIDIA RTX 4090.
 
 function [xyz_m, mask] = ds_fibonacci_hemisphere(num_elements, radius_m)

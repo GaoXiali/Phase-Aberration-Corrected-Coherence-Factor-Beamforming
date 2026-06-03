@@ -1,6 +1,6 @@
 % File: SphericalRecon_mouse_mesenteric_artery.m
 % Purpose: Mouse mesenteric-artery PAC-CF reconstruction demo using the dual-side raw mouse dataset.
-% Authors: Xiali Gao;
+% Authors: Xiali Gao
 % Tested with: MATLAB R2024a, CUDA 12.9, NVIDIA RTX 4090.
 
 clc;
