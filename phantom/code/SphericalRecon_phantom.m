@@ -119,6 +119,16 @@ for mode_idx = 1:numel(reconstruct_mode)
                     detector_run, Points_img, pa_data(:,:,frame), fs, predelay, V_M, R, Ellipse);
                 pa_recon = max(pa_img1, 0) ./ max(total_angle_weight, eps('single'));
                 pa_total = pa_total + pa_recon;
+                figure(1); set (gca,'position',[0.1,0.1,0.8,0.8]);
+                subplot(131); imagesc(z_range, x_range, squeeze(max(pa_total(:,:,:),[],1)));
+                axis equal tight; colormap gray; colorbar; axis equal;set(gca, 'YDir', 'normal');set(gca, 'tickdir', 'out');
+                ylabel('X'); xlabel('Z'); title('XZ proj');
+                subplot(133); imagesc(z_range, y_range, squeeze(max(pa_total(:,:,:),[],2)));
+                axis equal tight; colormap gray; colorbar; axis equal;set(gca, 'YDir', 'normal');set(gca, 'tickdir', 'out');
+                ylabel('Y'); xlabel('Z'); title('YZ proj');
+                subplot(132); imagesc(x_range, y_range, squeeze(max(pa_total(:,:,:),[],3)));
+                axis equal tight; colormap gray; colorbar; axis equal;set(gca, 'YDir', 'normal');
+                ylabel('Y'); xlabel('X'); title('XY proj'); set(gca, 'tickdir', 'out');
                 fprintf('frame: %d\n', frame);
             end
 

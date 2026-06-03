@@ -1,6 +1,6 @@
 % File: SphericalRecon_mouse_mesenteric_artery.m
 % Purpose: Mouse mesenteric-artery PAC-CF reconstruction demo using the dual-side raw mouse dataset.
-% Authors: Xiali Gao; Hao Huang
+% Authors: Xiali Gao;
 % Tested with: MATLAB R2024a, CUDA 12.9, NVIDIA RTX 4090.
 
 clc;
@@ -21,13 +21,13 @@ detector(:,2) = detector(:,2)+0.39;
 
 reconstruct_mode = 3; % 1: DAS; 2: CF; 3: PAC-CF.
 
-T = 21.1;
+T = 21.4;
 
 Is_Gating = 1; % 1: use correlation-based static-frame gating; 0: use all frames.
 Is_Denoising = 1; % 1: apply band-pass denoising before reconstruction.
 
 V_M = waterSoundSpeed(T);
-VM_out = 1486.6; % Outer sound speed in water, m/s.
+VM_out = V_M; % Outer sound speed in water, m/s.
 VM_out_Range = 1475:0.5:1499;
 VM_in = 1540.3; % Inner sound speed used by PAC-CF, m/s.
 VM_in_Range = 1530:5:1599;
